@@ -1,0 +1,127 @@
+*{
+	text-align: center;
+	font-family: "Verdena",Sans-serif;
+}
+.Recipies-1 h1{
+	position: relative;
+	top: -17px;
+	float: right;
+	border-left: solid;
+	border-bottom: solid;
+	background-color: red;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 25px;  
+}
+.Recipies-2 h1{
+	position: relative;
+	top: -17px;
+	float: right;
+	border-left: solid;
+	border-bottom: solid;
+	background-color: red;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 25px;  
+}
+.Recipies-3 h1{
+	position: relative;
+	top: -17px;
+	float: right;
+	border-left: solid;
+	border-bottom: solid;
+	background-color: red;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 25px;  
+}
+
+#chicken{
+	background-color: pink;
+}
+#sushi{
+	background-color: yellow;
+}
+#beef{
+	background-color: red;
+}
+
+.Recipies-1 p{
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: justify;
+}
+.Recipies-2 p{
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: justify;
+}
+.Recipies-3 p{
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: justify;
+}
+
+.Recipies-1{
+	box-sizing: border-box;
+	float: left;
+	border: solid;
+	position: relative;
+	background-color: silver;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.Recipies-2{
+	box-sizing: border-box;
+	float: left;
+	border: solid;
+	position: relative;
+	background-color: silver;
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.Recipies-3{
+	box-sizing: border-box;
+	float: left;
+	border: solid;
+	position: relative;
+	background-color: silver;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+@media only screen and (max-width: 767px){
+	.Recipies-1{
+		width: 98.8%;
+	}
+	.Recipies-2{
+		width: 98.8%;
+	}
+	.Recipies-3{
+		width: 98.8%;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.Recipies-1{
+		width: 48.6%;
+	}
+	.Recipies-2{
+		width: 48.6%;
+	}
+	.Recipies-3{
+		width: 98.2%;
+	}
+}
+@media only screen and (min-width: 992px){
+	.Recipies-1{
+		width: 32.2%;
+	}
+	.Recipies-2{
+		width: 32.2%;
+	}
+	.Recipies-3{
+		width: 32.2%;
+	}
+
+}
